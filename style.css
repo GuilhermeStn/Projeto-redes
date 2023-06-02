@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh; /* altura total do navegador */
+    height: 100vw; /* largura total do navegador */
+    background-color: black;
+}
+
+body{
+    background: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-position:top center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    height: 100vh;  /* 100% da altura da tala */
+    position: relative;
+}
+
+section#telefone{
+    height: 627px;
+    width:311px;
+    position: absolute;  /* vamos conseguir deixar centralizad na tela */
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-image: url(pacote-d013/pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 269px;
+    height: 471px;
+}
